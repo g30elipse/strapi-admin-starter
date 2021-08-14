@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "prod": "export NODE_ENV=production && strapi develop"
   },
   "devDependencies": {},
   "dependencies": {
@@ -23,6 +24,7 @@
     "strapi-plugin-i18n": "3.6.6",
     "strapi-plugin-upload": "3.6.6",
     "strapi-plugin-users-permissions": "3.6.6",
+    "strapi-provider-upload-imagekit": "^0.2.5",
     "strapi-utils": "3.6.6"
   },
   "author": {
